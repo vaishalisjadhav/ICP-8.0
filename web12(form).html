@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <label for="name">Enter Name:</label>
+    <input type="text" id="name" required>
+    <br><br>
+    <input type="text" placeholder="Enter Name">
+    <br><br>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date">
+    <br><br>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time">
+    <br><br>
+<!-- DROPDOWN  -->
+    <label for="lang">Choose Language :</label>
+    <select id="lang">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>MongoDB</option>
+        <option>JS</option>
+        <option>ReactJS</option>
+    </select>
+    <br><br>
+
+    <label for="Tongue">Mother Tongue :</label>
+    <input type="text" name="Tongue" id="Tongue2" value="Marathi">
+    <br><br>
+<!-- DATALIST  -->
+    <label for="tech">Choose Technology :</label>
+    <input list="dl">
+    <datalist id="dl">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JS</option>
+        <option>ReactJS</option>
+        <option>MongoDB</option>
+    </datalist>
+    <br><br>
+<!-- CHECKBOX  -->
+    <input type="checkbox" id="mov1" checked="true">
+    <label for="mov1">Movie 1</label><br>
+
+    <input type="checkbox" id="mov2">
+    <label for="mov2">Movie 2</label><br>
+
+    <input type="checkbox" id="mov3" checked="true">
+    <label for="mov3">Movie 3</label><br><br>
+<!-- RADIOBUTTON  -->
+     <input type="radio" name="gender" id="male">
+     <label for="male">Male</label><br>
+
+     <input type="radio" name="gender" id="female">
+     <label for="female">Female</label><br><br>
+<!-- FILE UPLOAD audio/*  image/*  application.pdf  video/*  image/png-->
+     <input type="file" accept="image/*">
+
+</body>
+</html>
